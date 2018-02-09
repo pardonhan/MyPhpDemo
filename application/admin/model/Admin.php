@@ -23,7 +23,7 @@ class Admin extends Model
                 return -1;//密码错误
             }
         } else {
-            return -2;//用户不存在
+            return -1;//用户不存在
         }
     }
 }
